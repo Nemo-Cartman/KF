@@ -115,6 +115,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="..\alg_test.cpp" />
+    <ClCompile Include="..\KF_implementation.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Kalman_Filter.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
